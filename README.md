@@ -1,9 +1,8 @@
 # elastic-classifier package
 
-Training classifiers for elasticsearch.
+Training classifier for elasticsearch. See "[Use case: Training a classifier](https://www.elastic.co/blog/significant-terms-aggregation )"
 
 You cat generate the percolator queries for classification such as:
-
 ```json
 {
   "_index": "blog",
