@@ -128,7 +128,7 @@ module.exports = PercolateGenerator =
       default: 'posts'
     classificationField:
       type: 'string'
-      default: 'classifications'
+      default: 'tags'
     queryMaximumTerms:
       type: 'integer'
       default: 100
