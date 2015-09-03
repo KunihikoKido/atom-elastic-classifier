@@ -17,7 +17,7 @@
       "elastic-classifier:delete-percolator-query"
     ]
   },
-  "repository": "https://github.com/atom/elastic-classifier",
+  "repository": "https://github.com/KunihikoKido/atom-elastic-classifier",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
