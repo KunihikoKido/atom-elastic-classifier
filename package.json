@@ -1,0 +1,32 @@
+{
+  "name": "elastic-classifier",
+  "main": "./lib/elastic-classifier",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "elasticsearch",
+    "classification",
+    "percolator"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "elastic-classifier:generate-percolator-queries",
+      "elastic-classifier:get-percolator-queries",
+      "elastic-classifier:evaluate-percolator-queries",
+      "elastic-classifier:find-misclassifications",
+      "elastic-classifier:delete-percolator-query"
+    ]
+  },
+  "repository": "https://github.com/atom/elastic-classifier",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "elasticsearch": "^6.0.0",
+    "loophole": "^1.0.0",
+    "promise": "^7.0.4",
+    "atom-space-pen-views": "^2.1.0",
+    "fs-plus": "^2.8.1"
+  }
+}
